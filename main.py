@@ -3,7 +3,7 @@ from user_service import user_services
 import requests
 
 app = FastAPI()
-
+# review the following lists
 products = ['rice','shoes','shirts','pants','socks','hats','gloves','scarves','coats','jackets','sweaters','sweatshirts','shorts','skirts','dresses','suits','blazers','underwear','bras','socks','pajamas','robes','slippers','boots','sandals','sneakers','heels','flats','loafers','oxfords','pumps','t-shirts','polos','tank tops','blouses','tunics','cardigans','turtlenecks','vests','sweatpants','leggings','jeans','trousers','joggers','chinos','overalls','jumpsuits','rompers','swimsuits','cover-ups','sunglasses','eyeglasses','belts','hats','gloves','scarves','umbrellas','watches','bracelets','rings','earrings','necklaces','handbags','backpacks','clutches','briefcases','luggage','totes','wallets','crossbody bags','satchels','duffel bags','tote bags','shoulder bags','hobo bags','bucket bags','messenger bags','wristlets','baguettes','bowling bags','saddle bags','sunglasses','eyeglasses','belts','hats','gloves','scarves','umbrellas','watches','bracelets','rings','earrings','necklaces','handbags','backpacks','clutches','briefcases','luggage','totes','wallets','crossbody bags','satchels','duffel bags','tote bags','shoulder bags','hobo bags','bucket bags','messenger bags','wristlets','baguettes','bowling bags','saddle bags']
 
 @app.get("/")
