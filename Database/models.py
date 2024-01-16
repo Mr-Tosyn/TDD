@@ -1,6 +1,7 @@
 from database import Base
 from sqlalchemy import Column, Integer, String, Boolean
 
+
 class Todos(Base):
     __tablename__ = 'todos' # This is the name of the table in the database
     
